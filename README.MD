@@ -13,7 +13,7 @@ It has several characteristics like
 First of all you must install the dependencies for this project, using the node package manager, using:
 
 ```bash
-    npm install
+    npm install jquery
 ```
 ### Running
 
