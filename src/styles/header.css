@@ -1,0 +1,25 @@
+.header{
+    background-image: url('../../assets/header-background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header .cover{
+    position: absolute;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .6);
+    left: 0;
+    text-align: center;
+    padding: 30vh;
+}
+
+.header .cover p{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.header .cover .subtitle{
+    font-size: 2rem;
+}
