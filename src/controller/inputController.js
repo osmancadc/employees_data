@@ -8,6 +8,7 @@ export function excelToJson(selectedFile,callback) {
         });
         workbook.SheetNames.forEach(sheet => {
             let rowObject = XLSX.utils.sheet_to_row_object_array(workbook.Sheets[sheet]);
+            console.log(rowObject)
             callback(rowObject,true)
         });
         
