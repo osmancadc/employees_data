@@ -30,6 +30,17 @@ then just run your localhost and acces the link correpsondent to the project, ex
     http://localhost/employees_data/
 ```
 
+### Running
+
+To test the upload of the excel file, you can use the template located inside this project.
+
+```bash
+    ./assets/templateEmployees.xlsx
+```
+After upload the excel file to the platform automatically will appear the table with the extracted data, and you'll see the JSON in the console.
+
+The table can be filteres using the dynamic buttons on the top
+![alt text](https://github.com/osmancadc/employees_data/assets/readme/blob/main/filters.png?raw=true)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
